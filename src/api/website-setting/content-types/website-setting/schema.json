@@ -1,0 +1,103 @@
+{
+  "kind": "singleType",
+  "collectionName": "website_settings",
+  "info": {
+    "singularName": "website-setting",
+    "pluralName": "website-settings",
+    "displayName": "Website Setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "meta_keywords": {
+      "type": "string"
+    },
+    "meta_thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footer_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "email_one": {
+      "type": "email"
+    },
+    "email_two": {
+      "type": "email"
+    },
+    "contact_one": {
+      "type": "string"
+    },
+    "contact_two": {
+      "type": "string"
+    },
+    "facebook_url": {
+      "type": "string"
+    },
+    "Instagram_url": {
+      "type": "string"
+    },
+    "youtube_url": {
+      "type": "string"
+    },
+    "twitter_url": {
+      "type": "string"
+    },
+    "about_us": {
+      "type": "richtext"
+    },
+    "privacy_policy": {
+      "type": "richtext"
+    },
+    "terms_and_conditions": {
+      "type": "richtext"
+    },
+    "tagline": {
+      "type": "text"
+    },
+    "footer_about_us": {
+      "type": "text"
+    },
+    "contact_us": {
+      "type": "richtext"
+    },
+    "career": {
+      "type": "richtext"
+    }
+  }
+}

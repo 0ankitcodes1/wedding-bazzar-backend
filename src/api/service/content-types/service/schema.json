@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "gallery": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.gallery"
+    },
+    "title": {
+      "type": "string",
+      "unique": true
+    },
+    "website_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::website-user.website-user"
+    },
+    "service_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::service-category.service-category"
+    },
+    "short_description": {
+      "type": "text"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "section": {
+      "displayName": "section",
+      "type": "component",
+      "repeatable": true,
+      "component": "service.section"
+    },
+    "location": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+diff --git a/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js b/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js
+index ae1448f..cc07050 100644
+--- a/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js
++++ b/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js
+@@ -66,7 +66,7 @@ const HomePage = () => {
+         <LogoContainer>
+           <img alt="" aria-hidden src={Logo} />
+         </LogoContainer>
+-        <Box padding={10}>
++        {/* <Box padding={10}>
+           <Grid>
+             <GridItem col={8} s={12}>
+               <HomeHeader
+@@ -83,7 +83,7 @@ const HomePage = () => {
+               <SocialLinks />
+             </GridItem>
+           </Grid>
+-        </Box>
++        </Box> */}
+       </Main>
+     </Layout>
+   );

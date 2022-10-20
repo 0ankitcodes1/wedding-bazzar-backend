@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "website_users",
+  "info": {
+    "singularName": "website-user",
+    "pluralName": "website-users",
+    "displayName": "Website User",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "agency": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    },
+    "avater": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "vendor",
+        "user"
+      ]
+    },
+    "ban": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

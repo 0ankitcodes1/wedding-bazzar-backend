@@ -1,0 +1,36 @@
+{
+  "name": "weddingbazzar-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
+    "@strapi/plugin-i18n": "4.4.3",
+    "@strapi/plugin-users-permissions": "4.4.3",
+    "@strapi/strapi": "4.4.3",
+    "@strapi/utils": "^4.4.5",
+    "better-sqlite3": "7.4.6",
+    "patch-package": "^6.4.7",
+    "pg": "^8.8.0",
+    "postinstall-postinstall": "^2.1.0",
+    "slugify": "^1.6.5"
+  },
+  "author": {
+    "name": "Wedding Bazzar"
+  },
+  "strapi": {
+    "uuid": "49b68204-883b-45ef-b67d-1ae310a9ccd0"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
