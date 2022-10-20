@@ -1,7 +1,15 @@
+// module.exports = ({ env }) => ({
+//   host: env('HOST', '0.0.0.0'),
+//   port: env.int('PORT', 1337),
+//   app: {
+//     keys: env.array('APP_KEYS'),
+//   },
+// });
+
 module.exports = ({ env }) => ({
-  host: env('HOST', '0.0.0.0'),
-  port: env.int('PORT', 1337),
+  url: env('MY_HEROKU_URL'),
+  emitErrors: true,
   app: {
-    keys: env.array('APP_KEYS'),
+    keys: env.array("APP_KEYS", ["testKey1", "testKey2"]),
   },
 });
