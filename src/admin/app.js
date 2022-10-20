@@ -18,6 +18,14 @@ export default {
     head: {
       favicon: AuthLogo
     },
+    translations: {
+      en: {
+        "app.components.LeftMenu.navbrand.title": "Wedding Bazzar",
+        "app.components.LeftMenu.navbrand.workplace": "Dashboard",
+        "Auth.form.welcome.title": "Welcome to Wedding Bazzar!",
+        "Auth.form.register.subtitle": "Credentials are only used to authenticate in Dashboard. All saved data will be stored in your database."
+      }
+    },
     locales: ["en"],
   },
 };
