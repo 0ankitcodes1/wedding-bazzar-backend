@@ -1,5 +1,11 @@
 module.exports = () => {
     return {
-        ckeditor: true
+        ckeditor: true,
+        "generate-data": {
+            enabled: true,
+        },
+        publisher: {
+            enabled: true,
+        },
     }
 }

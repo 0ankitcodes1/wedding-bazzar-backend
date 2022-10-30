@@ -26,10 +26,7 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "header_logo": {
@@ -37,10 +34,7 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "footer_logo": {
@@ -48,10 +42,7 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "email_one": {
@@ -98,6 +89,9 @@
     },
     "career": {
       "type": "richtext"
+    },
+    "copyright": {
+      "type": "string"
     }
   }
 }

@@ -34,7 +34,8 @@
         "Draft",
         "Review",
         "Unseen"
-      ]
+      ],
+      "default": "Unseen"
     },
     "notes": {
       "type": "richtext"

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "job-application",
     "pluralName": "job-applications",
-    "displayName": "Job Application"
+    "displayName": "Job Application",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,7 +19,7 @@
       "type": "email"
     },
     "title": {
-      "type": "string"
+      "type": "text"
     },
     "contact": {
       "type": "string"
@@ -33,14 +34,12 @@
       "type": "string"
     },
     "resume": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
     },
     "note": {
       "type": "richtext"

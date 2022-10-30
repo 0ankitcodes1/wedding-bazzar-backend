@@ -4,7 +4,7 @@
   "info": {
     "singularName": "website-user",
     "pluralName": "website-users",
-    "displayName": "Website User",
+    "displayName": "Customers & Vendors",
     "description": ""
   },
   "options": {
@@ -32,10 +32,7 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "type": {
@@ -49,6 +46,15 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "whatsapp": {
+      "type": "string"
+    },
+    "messanger_embed": {
+      "type": "text"
+    },
+    "fbpage_url": {
+      "type": "string"
     }
   }
 }

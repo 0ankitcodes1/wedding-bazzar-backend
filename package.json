@@ -20,7 +20,9 @@
     "patch-package": "^6.4.7",
     "pg": "^8.8.0",
     "postinstall-postinstall": "^2.1.0",
-    "slugify": "^1.6.5"
+    "slugify": "^1.6.5",
+    "strapi-plugin-generate-data": "^1.0.19",
+    "strapi-plugin-publisher": "^1.1.4"
   },
   "author": {
     "name": "Wedding Bazzar"

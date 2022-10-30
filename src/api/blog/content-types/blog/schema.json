@@ -17,13 +17,10 @@
     },
     "thumbnail": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "short_description": {
@@ -40,6 +37,25 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    },
+    "real_wedding_stories": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "amazing_wedding_ideas": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "most_read": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }

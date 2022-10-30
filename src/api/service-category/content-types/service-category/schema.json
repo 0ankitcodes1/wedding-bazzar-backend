@@ -16,14 +16,25 @@
       "type": "string"
     },
     "thumbnail": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "trusted_vendor": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }

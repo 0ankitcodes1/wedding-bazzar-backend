@@ -39,10 +39,7 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "description": {
@@ -51,18 +48,26 @@
     "price": {
       "type": "integer"
     },
-    "section": {
-      "displayName": "section",
-      "type": "component",
-      "repeatable": true,
-      "component": "service.section"
-    },
     "location": {
       "type": "string"
     },
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "trusted_service": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
